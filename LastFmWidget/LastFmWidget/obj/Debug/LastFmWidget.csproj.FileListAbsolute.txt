@@ -1,0 +1,1 @@
+E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\bin\Debug\LastFmWidget.exe.config
