@@ -1,10 +1,11 @@
 E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\bin\Debug\LastFmWidget.exe.config
 E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\bin\Debug\LastFmWidget.exe
 E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\bin\Debug\LastFmWidget.pdb
-E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\obj\Debug\LastFmWidget.csprojResolveAssemblyReference.cache
 E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\obj\Debug\LastFmWidget.Properties.Resources.resources
 E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\obj\Debug\LastFmWidget.csproj.GenerateResource.Cache
 E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\obj\Debug\LastFmWidget.exe
 E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\obj\Debug\LastFmWidget.pdb
-E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\obj\Debug\LastFmWidget.UserNameWindow.resources
 E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\obj\Debug\LastFmWidget.MainWindow.resources
+E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\obj\Debug\LastFmWidget.csprojResolveAssemblyReference.cache
+E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\bin\Debug\Newtonsoft.Json.dll
+E:\GitHub\LastfmWidget\LastFmWidget\LastFmWidget\bin\Debug\Newtonsoft.Json.xml
