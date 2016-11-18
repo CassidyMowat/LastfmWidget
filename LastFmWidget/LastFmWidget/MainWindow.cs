@@ -47,13 +47,18 @@ namespace LastFmWidget{
 
         private void getRecentTracks() {
 
-            String url = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=" + userName + "&api_key=" + apiKey + "&format=json";
+            String url = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&limit=5&user=" + userName + "&api_key=" + apiKey + "&format=json";
 
             try {
                 HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
                 HttpWebResponse response = (HttpWebResponse)req.GetResponse();
-                Stream resStream = response.GetResponseStream();
-                Console.WriteLine(resStream.ToString());
+                //Stream resStream = response.GetResponseStream();
+                
+                using (Stream stream = response.GetResponseStream()) {
+                    StreamReader reader = new StreamReader(stream, Encoding.UTF8);
+                    String responseString = reader.ReadToEnd();
+                    Console.WriteLine(responseString);
+                }
 
             } catch(Exception e) {
                 Console.WriteLine(e.Message);
